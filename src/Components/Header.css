@@ -1,0 +1,37 @@
+.Header{
+    background-color: #E6709C;
+    color: #FFFFFF;
+    height: 452px;
+    position: fixed;
+    width: 100%;
+}
+.others{
+    justify-content: end;
+}
+.head{
+    background-color: #E6709C;
+}
+.nav-link{
+    text-decoration: none;
+    color: #FFFFFF;
+    }
+.nav-link:hover{
+    background-color: #67D2D6;
+    border-radius: 5px;
+}
+.navbar-brand{
+    color: #FFFFFF;
+}
+.btn{
+   background-color:#67D2D6;
+   color: #FFFFFF;
+}
+.img-fluid{
+    padding: 0 6px;
+  width: 50%;
+  margin-top: 1%;
+}
+.img{
+    align-self: center;
+    margin-top: 20px;
+}
