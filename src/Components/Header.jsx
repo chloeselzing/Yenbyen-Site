@@ -1,5 +1,6 @@
 import './Header.css';
 import students from '../Images/IMG-20211218-WA0019.jpg'
+import { Link } from 'react-router-dom';
 
 
 const Header = () => {
@@ -16,10 +17,19 @@ const Header = () => {
     </button>
     <div class="collapse navbar-collapse others" id="navbarNavAltMarkup">
       <div class="navbar-nav">
-        <a class="nav-link" aria-current="page" href="#">Our Program</a>
-        <a class="nav-link" href="#">Contact Us</a>
-        <a class="nav-link" href="#">About</a>
-        <a class="nav-link" href="#">Join Us</a>
+        <Link to='/'>
+        <li class="nav-link" aria-current="page">Our Program</li>
+        </Link>
+        <Link to='/contact'>
+        <li class="nav-link">Contact Us</li>
+        </Link>
+        <Link to='/about'>
+        <li class="nav-link">About</li>
+        </Link>
+        <Link to='/join'>
+        <li class="nav-link">Join Us</li>
+        </Link>
+
       </div>
     </div> 
   </div> 
