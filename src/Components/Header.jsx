@@ -1,5 +1,4 @@
 import './Header.css';
-import students from '../Images/IMG-20211218-WA0019.jpg'
 import { Link } from 'react-router-dom';
 
 
@@ -34,16 +33,6 @@ const Header = () => {
     </div> 
   </div> 
 </nav> 
-<p>
-    <h1>Yenbyen Fellowship</h1>
-    <h5>Every woman has a creative skill. </h5>
-</p>
-<button type="button" class="btn">Join Us</button><br/>
-
-<div className='img'>
-<img src={students} class="img-fluid" alt=""></img>
-
-</div>
 
 
   </div>

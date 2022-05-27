@@ -1,0 +1,23 @@
+.Home{
+    background-color: #E6709C;
+    height: 452px;
+    color: #FFFFFF;
+
+}
+.hometop{
+    text-align: center;
+
+}
+.btn{
+    background-color:#67D2D6;
+    color: #FFFFFF;
+ }
+ .img-fluid{
+     padding: 0 6px;
+   width: 50%;
+   margin-top: 1%;
+ }
+ .img{
+     align-self: center;
+     margin-top: 20px;
+ }

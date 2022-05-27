@@ -4,7 +4,7 @@ import './Program.css';
 const Program = () => {
     return(
         <div className='Program'>
-          <>Who are we ?</>
+            <h1>Our Program</h1>
         </div>
     );
 }
