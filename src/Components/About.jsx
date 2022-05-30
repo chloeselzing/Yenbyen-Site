@@ -15,7 +15,7 @@ const About = () => {
 
         <div className="wwa container mt-5">
         <div className='row'>
-        <div className="col-6 ">
+        <div className="col-6-lg col-12-md col-sm-12 ">
         <p>
                      Yenbyen fellowship is a community that gives a free three months training to young ladies on tech related skills. 
                      </p>
@@ -31,7 +31,7 @@ const About = () => {
                      <button type="button" class="btn">Join Us</button><br/>
 
 </div>
-<div className="row col-6 background">
+<div className="row col-6-lg col-12-md col-sm-12 background">
 
   <div className="col-6 down">
     <img src={dd} className='imgs' alt="" />
