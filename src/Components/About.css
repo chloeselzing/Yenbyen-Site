@@ -18,3 +18,38 @@
 .down{
    margin-top: 40px;
 }
+.ppl{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: space-around;
+    width: 900px;
+    margin-top: 5%;
+}
+.one{
+    display: grid;
+   align-content: center;
+   border: 5px solid  #67D2D6;
+   width: 200px;
+   height: 200px;
+   border-radius: 50%;
+   }
+.two{
+    display: grid;
+    align-content: center;
+    border: 5px solid  #E6709C;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+.three{
+    display: grid;
+    align-content: center;
+    border: 5px solid  #F2C339;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+.Program{
+    text-align: center;
+    margin-top: 10%;
+}

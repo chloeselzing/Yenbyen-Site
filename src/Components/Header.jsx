@@ -17,13 +17,13 @@ const Header = () => {
     <div class="collapse navbar-collapse others" id="navbarNavAltMarkup">
       <div class="navbar-nav">
         <Link to='/'>
-        <li class="nav-link" aria-current="page">Our Program</li>
-        </Link>
-        <Link to='/contact'>
-        <li class="nav-link">Contact Us</li>
+        <li class="nav-link" aria-current="page">Home</li>
         </Link>
         <Link to='/about'>
         <li class="nav-link">About</li>
+        </Link>
+        <Link to='/contact'>
+        <li class="nav-link">Contact Us</li>
         </Link>
         <Link to='/join'>
         <li class="nav-link">Join Us</li>

@@ -4,8 +4,9 @@ import {BrowserRouter as Router, Routes, Route,
 //Navigate
 } from 'react-router-dom'
 import Home from './Components/Home';
-import Program from './Components/Program';
 import About from './Components/About';
+import Join from './Components/Join';
+import Contact from './Components/Contact'
 
 function App() {
   return (
@@ -13,9 +14,9 @@ function App() {
       <Router>
         <Routes>
           <Route path='/' element={<Home/>}/>
-          <Route path='/program' element={<Program/>}/>
+          <Route path='/contact' element={<Contact/>}/>
           <Route path='/about' element={<About/>}/>
-          <Route path='/program' element={<Program/>}/>
+          <Route path='/join' element={<Join/>}/>
 
         </Routes>
       </Router>

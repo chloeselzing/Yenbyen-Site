@@ -18,7 +18,6 @@ const Home = () => {
 <img src={students} class="img-fluid" alt=""></img>
 
 </div>
-
           </div>
           
          

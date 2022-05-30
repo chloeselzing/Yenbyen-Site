@@ -48,6 +48,18 @@ const About = () => {
 </div>
 </div>
 
+<div className='Program'>
+            <h1 className=' text-dark'>Girls who know us say</h1>
+            <div className='ppl container'>
+            <div className="one container">"Yenbyen is a community  that trains ladies to upskill themselves in different tech fields"</div>
+            <div className="two container">you</div>
+            <div className="three container">we</div>
+
+            </div>
+        </div>
+
+
+
         </div>
     );
 }
