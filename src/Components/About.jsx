@@ -3,14 +3,12 @@ import emma from '../Images/emma.jpg'
 import yen from '../Images/yen.jpeg'
 import nother from '../Images/nother.jpg'
 import './About.css'
-import Header from './Header'
 
 
 
 const About = () => {
     return(
         <div className='About'> 
-        <Header/>
         <h1 className='text-dark mt-5 title'>Who are we ?</h1>
 
         <div className="wwa container mt-5">

@@ -1,4 +1,3 @@
-import Header from './Header';
 import students from '../Images/IMG-20211218-WA0019.jpg'
 
 import './Home.css';
@@ -7,7 +6,6 @@ const Home = () => {
     return(
         <div className='Home'>
         <div className='homemain '>
-          <Header/>
           <div className='hometop'>
           <p>
     <h1>Yenbyen Fellowship</h1>
