@@ -13,7 +13,7 @@ const About = () => {
 
         <div className="wwa container mt-5">
         <div className='row'>
-        <div className="col-6-lg col-12-md col-sm-12 ">
+        <div className="col-lg-6 col-md-12 col-sm-12">
         <p>
                      Yenbyen fellowship is a community that gives a free three months training to young ladies on tech related skills. 
                      </p>
@@ -29,18 +29,46 @@ const About = () => {
                      <button type="button" class="btn">Join Us</button><br/>
 
 </div>
-<div className="row col-6-lg col-12-md col-sm-12 background">
-
-  <div className="col-6 down">
-    <img src={dd} className='imgs' alt="" />
-    <img src={emma} className='imgs' alt="" />
+<div className="row col-lg-6 col-md-12 col-sm-12  background">
+   
+<div id="carouselExampleControls" class="carousel slide mt-5" data-bs-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src={dd} class="d-block w-100 images" alt="..."/>
+    </div>
+    <div class="carousel-item">
+      <img src={emma} class="d-block w-100 images" alt="..."/>
+    </div>
+    <div class="carousel-item">
+      <img src={nother} class="d-block w-100 images" alt="..."/>
+    </div>
+    <div class="carousel-item">
+      <img src={yen} class="d-block w-100 images " alt="..."/>
+    </div>
 
   </div>
-  <div className="col-6">
-  <img src={nother} className='imgs' alt="" />
-  <img src={yen} className='imgs' alt="" />
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+<div className="image mt-5">
+<div className="col down ">
+    <img src={dd} className='imgs ' alt="" />
+    <img src={emma} className='imgs ' alt="" />
 
   </div>
+  <div className="col up">
+  <img src={nother} className='imgs ' alt="" />
+  <img src={yen} className='imgs ' alt="" />
+
+  </div>
+
+</div>
 </div>
 
 </div>

@@ -1,4 +1,21 @@
 .Contact{
   width: 100vw;
   height: 100vh;
+  margin-top: 5%;
+  justify-content: center;
+  align-self: center;
+}
+.box{
+  width: 700px;
+  height: 400px;
+  /* background-color: rgb(133, 214, 219)  ; */
+  border-radius: 0px;
+  border: #E56997 5px solid;
+  
+}
+.last{
+  background-color: #66D2D6;
+  color: white;
+margin-top: 10%;
+margin-left: 45%;
 }
