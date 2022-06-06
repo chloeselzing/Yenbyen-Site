@@ -45,7 +45,7 @@
 .one{
     display: grid;
    align-content: center;
-   border: 5px solid  #67D2D6;
+   background-color:  #67D2D6;
    width: 200px;
    height: 200px;
    border-radius: 50%;
@@ -53,7 +53,7 @@
 .two{
     display: grid;
     align-content: center;
-    border: 5px solid  #E6709C;
+    background-color:  #E6709C;
     width: 200px;
     height: 200px;
     border-radius: 50%;
@@ -61,7 +61,7 @@
 .three{
     display: grid;
     align-content: center;
-    border: 5px solid  #F2C339;
+    background-color: #F2C339;
     width: 200px;
     height: 200px;
     border-radius: 50%;

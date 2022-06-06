@@ -15,16 +15,12 @@ const About = () => {
         <div className='row'>
         <div className="col-lg-6 col-md-12 col-sm-12">
         <p>
-                     Yenbyen fellowship is a community that gives a free three months training to young ladies on tech related skills. 
+                     Yenbyen fellowship is a tech community that gives free three months training to young ladies to empower them with the skills needed for secure and decent future through trainings in computer programming and basic life skills. 
                      </p>
+                     
+                     
                      <p>
-                     Within these three months, these ladies are taught the basics of programming, how to upskill themselves and other tech and life related skills.
-                     </p>
-                     <p>
-                    This initiative started up in the year 2021 and to God's glory it has been a beautiful one.
-                     </p>
-                     <p>
-                         You could register to join us by clicking the JOIN US button below and afterwards filling the required information at the appropriate places
+                         You can register by clicking the JOIN US button.
                      </p>
                      <button type="button" class="btn">Join Us</button><br/>
 
@@ -78,7 +74,7 @@ const About = () => {
             <h1 className=' text-dark'>Girls who know us say</h1>
             <div className='ppl container'>
             <div className="one container">"Yenbyen is a community  that trains ladies to upskill themselves in different tech fields"</div>
-            <div className="two container">you</div>
+            <div className="two container"></div>
             <div className="three container">we</div>
 
             </div>

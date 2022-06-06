@@ -9,13 +9,13 @@ const Contact = () => {
           
            <br />
            <label for="formGroupExampleInput" class="form-label">Name:</label>
-  <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Enter your Name"/>
+  <input type="text" class="form-control" name='name' placeholder="Enter your Name"/><br />
 
   <label for="formGroupExampleInput" class="form-label">Email:</label>
-  <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Enter your Email"/>
+  <input type="email" class="form-control" name='email' placeholder="Enter your Email"/><br />
 
-  <label for="formGroupExampleInput" class="form-label">Comment:</label>
-  <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Enter your comment"></input>
+  <label for="formGroupExampleInput" class="form-label">Message:</label>
+  <input type="text" class="form-control" name='text' /><br />
 
          </form>
 

@@ -9,7 +9,8 @@ const Home = () => {
           <div className='hometop'>
           <p>
     <h1>Yenbyen Fellowship</h1>
-    <h5>Every woman has a creative skill. </h5>
+    {/* <h5>Every woman has a creative skill. </h5> */}
+    <h5>Ladies in tech and basic life skills</h5>
 </p>
 <button type="button" class="btn">Join Us</button><br/>
 
