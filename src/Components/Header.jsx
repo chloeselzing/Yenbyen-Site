@@ -24,12 +24,12 @@ const Header = () => {
         <Link to='/about'>
         <li class="nav-link">About</li>
         </Link>
-        <Link to='/contact'>
+        {/* <Link to='/contact'>
         <li class="nav-link">Contact Us</li>
-        </Link>
-        <Link to='/join'>
+        </Link> */}
+        <a target='_blank' href='https://docs.google.com/forms/d/e/1FAIpQLSeXNb8Y7qdfPc-PltDrDc5WLcOabUsCT4r4XG6DTVW4HeJGkQ/viewform?usp=sf_link'>
         <li class="nav-link">Join Us</li>
-        </Link>
+        </a>
 
       </div>
     </div> 

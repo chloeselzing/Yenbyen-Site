@@ -12,8 +12,9 @@ const Home = () => {
     {/* <h5>Every woman has a creative skill. </h5> */}
     <h5>Ladies in tech and basic life skills</h5>
 </p>
+<a href="https://docs.google.com/forms/d/e/1FAIpQLSeXNb8Y7qdfPc-PltDrDc5WLcOabUsCT4r4XG6DTVW4HeJGkQ/viewform?usp=sf_link">
 <button type="button" class="btn">Join Us</button><br/>
-
+</a>
 <div className='img'>
 <img src={students} class="img-fluid" alt=""></img>
 

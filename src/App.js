@@ -6,7 +6,7 @@ import {BrowserRouter as Router, Routes, Route,
 import Home from './Components/Home.jsx';
 import About from './Components/About.jsx';
 import Join from './Components/Join.jsx';
-import Contact from './Components/Contact.jsx'
+// import Contact from './Components/Contact.jsx'
 
 function App() {
   return (
@@ -15,9 +15,7 @@ function App() {
         <Header/>
         <Routes>
           <Route path='/' element={<Home/>}/>
-          <Route path='/contact' element={<Contact/>}/>
           <Route path='/about' element={<About/>}/>
-          <Route path='/join' element={<Join/>}/>
 
         </Routes>
       </Router>
