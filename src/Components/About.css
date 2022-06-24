@@ -11,6 +11,9 @@
     justify-self: flex-start;
     text-align: left;
 }
+.cmage{
+    height: 200px;
+}
 
 @media only screen and (min-width: 600px) {
     .carousel {
@@ -28,8 +31,18 @@
 
    
   }
+  .pic1{
+      margin-top: -50px;
+  }
+  .dd{
+    margin-top: 50px;
+  }
+  .yen{
+      margin-top: -50px;
+  }
+
   .imgs{
-    margin-top: 10px;
+      margin-bottom: 10px;
     width: 15em;
     height: 10em;
     margin-left: 10px;
@@ -69,4 +82,7 @@
 .Program{
     text-align: center;
     margin-top: 10%;
+}
+.cd{
+    height: 60vh;
 }

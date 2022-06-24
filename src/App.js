@@ -4,13 +4,15 @@ import {BrowserRouter as Router, Routes, Route,
 //Navigate
 } from 'react-router-dom'
 import Home from './Components/Home.jsx';
+import Footer from './Components/Footer.jsx';
+
 import About from './Components/About.jsx';
-import Join from './Components/Join.jsx';
+// import Join from './Components/Join.jsx';
 // import Contact from './Components/Contact.jsx'
 
 function App() {
   return (
-    <div className="App">
+    <div className="App ">
       <Router>
         <Header/>
         <Routes>
@@ -19,7 +21,10 @@ function App() {
 
         </Routes>
       </Router>
+
+    <Footer/>
     </div>
+
   );
 }
 

@@ -1,5 +1,4 @@
 import students from '../Images/IMG-20211218-WA0019.jpg'
-
 import './Home.css';
 
 const Home = () => {
@@ -10,7 +9,7 @@ const Home = () => {
           <p>
     <h1>Yenbyen Fellowship</h1>
     {/* <h5>Every woman has a creative skill. </h5> */}
-    <h5>Ladies in tech and basic life skills</h5>
+    <h5> <em>Raising young ladies in tech</em> </h5>
 </p>
 <a href="https://docs.google.com/forms/d/e/1FAIpQLSeXNb8Y7qdfPc-PltDrDc5WLcOabUsCT4r4XG6DTVW4HeJGkQ/viewform?usp=sf_link">
 <button type="button" class="btn">Join Us</button><br/>

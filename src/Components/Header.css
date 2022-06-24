@@ -12,10 +12,10 @@
 .head{
     background-color: #E6709C;
 }
+
 .nav-link{
-    text-decoration: none !important;
+    text-decoration: none!important;
     color: #FFFFFF;
-    list-style: none;
     }
 .nav-link:hover{
     background-color: #67D2D6;

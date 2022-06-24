@@ -1,7 +1,6 @@
 import './Header.css';
 import { Link } from 'react-router-dom';
-import logo from '../Images/logo.jpeg'
-
+import logos from '../Images/logos.png'
 
 
 const Header = () => {
@@ -10,7 +9,7 @@ const Header = () => {
           <nav class="navbar navbar-expand-lg head">
           <div class="container">
           <a class="navbar-brand" href="#">
-      <img src={logo} alt="" width="30" height="24" class="d-inline-block align-text-top"/>
+      <img src={logos} alt="" width="20" height="24" class="d-inline-block align-text-top"/>
      <strong>Yenbyen</strong> <br />Fellowship
     </a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">

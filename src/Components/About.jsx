@@ -1,7 +1,11 @@
-import dd from '../Images/dd.jpg'
-import emma from '../Images/emma.jpg'
-import yen from '../Images/yen.jpeg'
+import becky from '../Images/becky.jpeg'
 import nother from '../Images/nother.jpg'
+import students from '../Images/IMG-20211218-WA0019.jpg'
+import vicky from '../Images/vicky.jpeg'
+import react from '../Images/react.jpeg'
+import divide from '../Images/divide.jpeg'
+import approach from '../Images/approach.png'
+
 import './About.css'
 
 
@@ -14,15 +18,19 @@ const About = () => {
         <div className="wwa container mt-5">
         <div className='row'>
         <div className="col-lg-6 col-md-12 col-sm-12">
-        <p>
+                     <p>
                      Yenbyen fellowship is a tech community that gives free three months training to young ladies to empower them with the skills needed for secure and decent future through trainings in computer programming and basic life skills. 
                      </p>
+                     
                      
                      
                      <p>
                          You can register by clicking the JOIN US button.
                      </p>
-                     <button type="button" class="btn">Join Us</button><br/>
+                    <a href="https://docs.google.com/forms/d/e/1FAIpQLSeXNb8Y7qdfPc-PltDrDc5WLcOabUsCT4r4XG6DTVW4HeJGkQ/viewform?usp=sf_link">
+                      <button type="button" class="btn">Join Us</button><br/>
+                     </a>
+
 
 </div>
 <div className="row col-lg-6 col-md-12 col-sm-12  background">
@@ -30,16 +38,16 @@ const About = () => {
 <div id="carouselExampleControls" class="carousel slide mt-5" data-bs-ride="carousel">
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <img src={dd} class="d-block w-100 images" alt="..."/>
+      <img src={students} class="d-block w-100 images" alt="..."/>
     </div>
     <div class="carousel-item">
-      <img src={emma} class="d-block w-100 images" alt="..."/>
+      <img src={becky} class="d-block w-100 images" alt="..."/>
     </div>
     <div class="carousel-item">
-      <img src={nother} class="d-block w-100 images" alt="..."/>
+      <img src={vicky} class="d-block w-100 images" alt="..."/>
     </div>
     <div class="carousel-item">
-      <img src={yen} class="d-block w-100 images " alt="..."/>
+      <img src={nother} class="d-block w-100 images " alt="..."/>
     </div>
 
   </div>
@@ -53,14 +61,14 @@ const About = () => {
   </button>
 </div>
 <div className="image mt-5">
-<div className="col down ">
-    <img src={dd} className='imgs ' alt="" />
-    <img src={emma} className='imgs ' alt="" />
+<div className="col pic1">
+    <img src={students} className='imgs dd' alt="" />
+    <img src={becky} className='imgs ' alt="" />
 
   </div>
-  <div className="col up">
-  <img src={nother} className='imgs ' alt="" />
-  <img src={yen} className='imgs ' alt="" />
+  <div className="col pic2">
+  <img src={vicky} className='imgs ' alt="" />
+  <img src={nother} className='imgs yen' alt="" />
 
   </div>
 
@@ -71,13 +79,45 @@ const About = () => {
 </div>
 
 <div className='Program'>
-            <h1 className=' text-dark'>Girls who know us say</h1>
-            <div className='ppl container'>
-            <div className="one container">"Yenbyen is a community  that trains ladies to upskill themselves in different tech fields"</div>
-            <div className="two container"></div>
-            <div className="three container">we</div>
+<div className="container">
 
-            </div>
+            <div class="row row-cols-1 row-cols-md-2 g-4">
+  <div class="col-lg-4 ">
+    <div class="card">
+      <img src={react} class="cmage card-img-top" alt="..."/>
+      <div class="card-body cd">
+        <h5 class="card-title">Challenge</h5>
+        <p class="card-text">Women represent only 3% of technology graduates globally. With Skills for Their Future, Yenbyen fellowship works to empower girls and young women by helping them gain next-generation digital, coding, and entrepreneurship skills.
+</p>
+      </div>
+    </div>
+  </div>
+  <div class="col-lg-4">
+    <div class="card">
+      <img src={approach} class="cmage card-img-top" alt="..."/>
+      <div class="card-body cd">
+        <h5 class="card-title">Approach</h5>
+        <p class="card-text">Yenbyen Fellowship partners with local organizations and government in Plateau State to help girls learn digital skills, schools deliver quality education and local companies offer work opportunities.
+</p>
+      </div>
+    </div>
+  </div>
+  <div class="col-lg-4 ">
+    <div class="card">
+      <img src={divide} class="cmage card-img-top" alt="..."/>
+      <div class="card-body cd">
+        <h5 class="card-title">Narrowing the divide</h5>
+        <p class="card-text">By 2030, more than half of all young people will lack the basic skills necessary for the workforce. Girls and young women will be particularly left behind.
+
+A gender divide persists that means education isn't always available to young females, and they suffer as a result of stereotypical attitudes towards a female’s place in society. Generations of women have missed out on the options available to their male peers. 
+
+Yenbyen Fellowship partners with local community organizations to work on bridging this divide.</p>
+      </div>
+    </div>
+  </div>
+  </div>
+</div>
+
         </div>
 
 
